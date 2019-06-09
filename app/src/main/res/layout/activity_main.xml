@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="年龄检测"
+        android:textColor="#3b424c"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_age"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="18" />
+
+    <Button
+        android:id="@+id/btn_check_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检测" />
+
+</LinearLayout>
